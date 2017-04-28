@@ -1,0 +1,602 @@
+# depslib dependency file v1.0
+1446671344 source:c:\users\daniel\documents\c++ workspace\invaders-2\main.cpp
+	<iostream>
+
+1493140388 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\enemy.cpp
+	"Enemy.h"
+	"Ship.h"
+	"Sprite.h"
+	<functional>
+	<iostream>
+	<memory>
+	<mutex>
+
+1493139406 c:\users\daniel\documents\c++ workspace\invaders-2\src\ship.h
+	"Sprite.h"
+	"Weapon.h"
+	"Bullet.h"
+	<vector>
+	<memory>
+
+1493111056 c:\users\daniel\documents\c++ workspace\invaders-2\src\sprite.h
+
+1493142966 c:\users\daniel\documents\c++ workspace\invaders-2\src\weapon.h
+	<string>
+	<vector>
+	<memory>
+	<iostream>
+	"Bullet.h"
+
+1493139476 c:\users\daniel\documents\c++ workspace\invaders-2\src\enemy.h
+	"Player.h"
+	"Ship.h"
+	<memory>
+	<functional>
+	<mutex>
+	<vector>
+
+1493139426 c:\users\daniel\documents\c++ workspace\invaders-2\src\player.h
+	"Weapon.h"
+	"Ship.h"
+	<tr1/memory>
+
+1493140009 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\player.cpp
+	"Sprite.h"
+	"Ship.h"
+	"Player.h"
+	<iostream>
+
+1493066912 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\ship.cpp
+	"Ship.h"
+	"Sprite.h"
+	"Weapon.h"
+	"Bullet.h"
+	<memory>
+	<vector>
+
+1493405336 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\sprite.cpp
+	"Sprite.h"
+	<math.h>
+	<iostream>
+
+1493145393 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\test.cpp
+	"Player.h"
+	"Weapon.h"
+	"Enemy.h"
+	"Basic_Enemy.h"
+	"Display.h"
+	"World.h"
+	<memory>
+	<functional>
+	<iostream>
+	<ctime>
+	<chrono>
+	"SDL.h"
+
+1491811506 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\weapon.cpp
+	<string>
+	<vector>
+
+1492728619 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\basic_enemy.cpp
+	"Basic_Enemy.h"
+	"Enemy.h"
+	"Touch.h"
+	"Player.h"
+	<functional>
+	<iostream>
+	<memory>
+
+1493139485 c:\users\daniel\documents\c++ workspace\invaders-2\src\basic_enemy.h
+	"Enemy.h"
+	"Player.h"
+	<memory>
+	<vector>
+
+1491810966 c:\users\daniel\documents\c++ workspace\invaders-2\src\touch.h
+	"Weapon.h"
+
+1493111923 c:\users\daniel\documents\c++ workspace\invaders-2\src\bullet.h
+	"Sprite.h"
+	<memory>
+
+1493112464 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\bullet.cpp
+	"Bullet.h"
+	"Sprite.h"
+	<memory>
+	<cmath>
+	<iostream>
+
+1493110648 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\display.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdexcept>
+	"Player.h"
+	"Weapon.h"
+	<memory>
+	<iostream>
+	<SDL_ttf.h>
+	"Display.h"
+	"World.h"
+	"Bullet.h"
+	"Sprite.h"
+	"Spark.h"
+
+1493103849 c:\users\daniel\documents\c++ workspace\invaders-2\src\display.h
+	"World.h"
+	<SDL.h>
+
+1493143774 c:\users\daniel\documents\c++ workspace\invaders-2\src\world.h
+	<vector>
+	<memory>
+	<map>
+	<functional>
+	<random>
+	"Player.h"
+	"Enemy.h"
+	"Sprite.h"
+	"Bullet.h"
+	"Spark.h"
+
+1493144054 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\world.cpp
+	"World.h"
+	"Enemy.h"
+	"Player.h"
+	"Basic_Enemy.h"
+	"Basic_Shooter.h"
+	"Repeater.h"
+	"Weapon.h"
+	"Spark.h"
+	"Laser_Shooter.h"
+	<mutex>
+	<memory>
+	<iostream>
+	<cmath>
+	<random>
+	<map>
+	<sys/time.h>
+	<time.h>
+	<chrono>
+
+1491813845 c:\sdl2-2.0.5\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_premake.h"
+	"SDL_config_windows.h"
+	"SDL_config_winrt.h"
+	"SDL_config_macosx.h"
+	"SDL_config_iphoneos.h"
+	"SDL_config_android.h"
+	"SDL_config_psp.h"
+	"SDL_config_minimal.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\begin_code.h
+
+1491813845 c:\sdl2-2.0.5\include\close_code.h
+
+1491813845 c:\sdl2-2.0.5\include\sdl_config_windows.h
+	"SDL_platform.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_config_winrt.h
+	"SDL_platform.h"
+	<sdkddkver.h>
+
+1491813845 c:\sdl2-2.0.5\include\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1491813845 c:\sdl2-2.0.5\include\sdl_config_iphoneos.h
+	"SDL_platform.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_config_android.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1491813845 c:\sdl2-2.0.5\include\sdl_config_psp.h
+	"SDL_platform.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_config_minimal.h
+	"SDL_platform.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813845 c:\sdl2-2.0.5\include\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491813846 c:\sdl2-2.0.5\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1491727462 c:\boost_1_63_0\boost\functional
+
+1491727529 c:\boost_1_63_0\boost\chrono
+
+1493079781 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\repeater.cpp
+	"Repeater.h"
+	"Bullet.h"
+	"Weapon.h"
+	<string>
+
+1491882683 c:\users\daniel\documents\c++ workspace\invaders-2\src\repeater.h
+	"Weapon.h"
+	"Bullet.h"
+
+1493107493 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\basic_shooter.cpp
+	"Basic_Shooter.h"
+	"Enemy.h"
+	"Touch.h"
+	"Player.h"
+	"Repeater.h"
+	"Weapon.h"
+	<functional>
+	<iostream>
+	<memory>
+	<vector>
+	<cmath>
+
+1492729037 c:\users\daniel\documents\c++ workspace\invaders-2\src\basic_shooter.h
+	"Enemy.h"
+	"Player.h"
+	<memory>
+	<vector>
+
+1451803973 c:\libraries\sdl2 image\sdl2_image-2.0.1\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1493103123 c:\libraries\sdl2 text\sdl2_ttf-devel-2.0.14-mingw\sdl2_ttf-2.0.14\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1493111158 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\spark.cpp
+	"Spark.h"
+	"Sprite.h"
+
+1493109632 c:\users\daniel\documents\c++ workspace\invaders-2\src\spark.h
+	"Sprite.h"
+
+1493143774 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\laser_cannon.cpp
+	"Laser_Cannon.h"
+	"Bullet.h"
+	<memory>
+	<cmath>
+	<iostream>
+
+1493142986 c:\users\daniel\documents\c++ workspace\invaders-2\src\laser_cannon.h
+	"Bullet.h"
+	<memory>
+
+1493141800 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\cannon.cpp
+	"Cannon.h"
+	"Weapon.h"
+	"Bullet.h"
+	"Laser_Cannon.h"
+
+1493139975 c:\users\daniel\documents\c++ workspace\invaders-2\src\cannon.h
+	"Weapon.h"
+	"Laser_Cannon.h"
+
+1493143774 source:c:\users\daniel\documents\c++ workspace\invaders-2\src\laser_shooter.cpp
+	"Laser_Shooter.h"
+	"Weapon.h"
+	"Enemy.h"
+	"Cannon.h"
+	"Repeater.h"
+	"Weapon.h"
+	"Player.h"
+	"Bullet.h"
+	<memory>
+	<functional>
+	<vector>
+	<iostream>
+
+1493141460 c:\users\daniel\documents\c++ workspace\invaders-2\src\laser_shooter.h
+	"Enemy.h"
+	"Cannon.h"
+	<memory>
+	<functional>
+
